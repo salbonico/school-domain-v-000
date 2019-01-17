@@ -21,7 +21,7 @@ end
 
 def sort
   @roster.each do |grade|
-    @roster[grade] = grade.sort!
+    @roster[grade] = @roster[grade].sort
 end
 
 return @roster
