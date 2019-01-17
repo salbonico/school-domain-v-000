@@ -9,7 +9,9 @@ def initialize(name)
 end
 
 def add_student(student, grade)
+  if @roster.keys.include?(grade) == false
   @roster[grade] = []
+end
   @roster[grade] << student
 end
 
