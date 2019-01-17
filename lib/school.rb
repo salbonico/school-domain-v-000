@@ -15,4 +15,8 @@ end
   @roster[grade] << student
 end
 
+def grade(grade)
+  return @roster[grade]
+end
+
 end
