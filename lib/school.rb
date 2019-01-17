@@ -19,4 +19,10 @@ def grade(grade)
   return @roster[grade]
 end
 
+def sort
+  @roster.each do |grade|
+    grade.sort!
+end
+return @roster
+end
 end
