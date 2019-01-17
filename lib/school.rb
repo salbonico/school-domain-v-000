@@ -20,8 +20,8 @@ def grade(grade)
 end
 
 def sort
-  @roster.each do |thing|
-    thing.sort!
+  @roster.each do |grade, student|
+    student.sort!
 end
 
 return @roster
