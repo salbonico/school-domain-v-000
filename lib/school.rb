@@ -20,8 +20,8 @@ def grade(grade)
 end
 
 def sort
-  @roster.each do |grade|
-    @roster[grade] = @roster[grade].sort
+  @roster.each do |thing|
+    thing.sort!
 end
 
 return @roster
